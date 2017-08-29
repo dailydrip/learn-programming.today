@@ -1,7 +1,6 @@
 module App exposing (..)
 
 import Model
-import Navigation
 
 
 init location =

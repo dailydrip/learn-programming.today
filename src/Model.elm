@@ -1,15 +1,8 @@
-module Model exposing (Model, init)
+module Model exposing (Model)
 
-import Types.Store as Store
 import Navigation
 
 
 type alias Model =
     { history : List Navigation.Location
     }
-
-
-init location =
-    ( Model [ location ]
-    , Cmd.none
-    )
