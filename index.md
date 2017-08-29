@@ -1,8 +1,8 @@
-## Welcome to GitHub Pages
+## Learn Programming Today.
 
-You can use the [editor on GitHub](https://github.com/dailydrip/learn-programming.today/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Places where you can learn programming today.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- [DailyDrip](www.dailydrip.com)
 
 ### Markdown
 
