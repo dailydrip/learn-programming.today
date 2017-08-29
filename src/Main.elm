@@ -3,7 +3,8 @@ module Main exposing (main)
 import App
 import View
 import Update
-import Model exposing (Model, Flags)
+import Navigation
+import Msg exposing (Msg(UrlChange))
 
 
 main =

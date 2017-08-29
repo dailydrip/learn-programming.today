@@ -5,8 +5,7 @@ import Navigation
 
 
 type alias Model =
-    { store : Store.Model
-    , history : List Navigation.Location
+    { history : List Navigation.Location
     }
 
 

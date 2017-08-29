@@ -1,11 +1,13 @@
-module Main exposing (..)
+module View exposing (..)
 
 import Html exposing (..)
 import Html.Attributes exposing (..)
 import Html.Events exposing (..)
+import Navigation
+import Model
 
 
-view : Model -> Html msg
+view : Model.Model -> Html msg
 view model =
     div []
         [ h1 [] [ text "Pages" ]

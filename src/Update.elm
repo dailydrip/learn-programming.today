@@ -1,4 +1,4 @@
-module Update exposing (update, handleRoute)
+module Update exposing (update)
 
 import Model exposing (Model)
 import Msg exposing (Msg(..))
@@ -18,3 +18,6 @@ update msg model =
             ( { model | history = location :: model.history }
             , Cmd.none
             )
+
+        Msg.NoOp ->
+            ( model, Cmd.none )
